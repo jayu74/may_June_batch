@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./ownerlogin.component.css']
 })
 export class OwnerloginComponent {
-
+   loginForm:formGroup
 }
