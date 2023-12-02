@@ -11,7 +11,8 @@ import { OwnerloginComponent } from './ownerlogin/ownerlogin.component';
   ],
   imports: [
     CommonModule,
-    OwnerRoutingModule
-  ]
+    OwnerRoutingModule,
+    SharedModule,
+  ],
 })
 export class OwnerModule { }
