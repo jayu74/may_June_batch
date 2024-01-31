@@ -7,16 +7,16 @@ import { HotelRegistrationComponent } from './hotel-registration/hotel-registrat
 import { OwnerSignUpComponent } from './owner-sign-up/owner-sign-up.component';
 
 
+
 @NgModule({
   declarations: [
     OwnerloginComponent,
     HotelRegistrationComponent,
-    OwnerSignUpComponent
+    OwnerSignUpComponent,
   ],
   imports: [
     CommonModule,
     OwnerRoutingModule,
-    SharedModule,
   ],
 })
 export class OwnerModule { }
