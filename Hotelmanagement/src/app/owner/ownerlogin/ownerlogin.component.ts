@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 import { OwnerModule } from '../owner.module';
+
 
 @Component({
   selector: 'app-ownerlogin',
@@ -8,6 +9,6 @@ import { OwnerModule } from '../owner.module';
   styleUrls: ['./ownerlogin.component.css']
 })
 export class OwnerloginComponent {
-   loginFor: formLogin
+  loginForm!: FormGroup
 
 }

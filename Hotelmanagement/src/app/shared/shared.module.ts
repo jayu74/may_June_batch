@@ -15,14 +15,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
-    MatRadioModule                 
+    MatRadioModule,
+                  
   ],
   exports:[
     FormsModule,
     ReactiveFormsModule,
     MatInputModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
   ]
 })
 export class SharedModule { }
